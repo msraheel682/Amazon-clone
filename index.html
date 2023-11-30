@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <!-- <img src="images/logo.png" alt="logo image"> -->
+                   <h2>Amazon</h2>
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="diliver">Diliver to</p>
+                <div class="nav-location">
+                    <i class="ri-map-pin-line"></i>
+                    <p class="country">Pakistan</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Arts</option>
+                    <option>Crafts</option>
+                    <option>Shows</option>
+                </select>
+                <input placeholder=" Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+            </div>
+
+            <div class="language border">
+                <select class="select-language" id="select-language">
+                    <!-- <i class="ri-global-line" id="L-icon"></i> -->
+                    <option>EN</option>
+                    <option>UR</option>
+                    <option>AR</option>
+                    <option>CH</option>
+                </select>
+            </div>
+
+            <div class="sing-in border">
+                <p>Hello, sign in</p>
+                <div class="account-list">
+                    <select class="list-acount">
+                        <option>Accounts & Lists</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="return-order border">
+                <p>Returns</p><span>& Orders</span>
+            </div>
+
+            <div class="cart border">
+                <div class="cart-icon">
+                    <i class="ri-shopping-cart-line"></i>
+                </div>
+                <div class="cart-text">
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <a href="#"><i class="ri-menu-line"></i> All</a>
+            </div>
+            <div class="panel-list">
+                <ul>
+                    <a href="#" class="border"><li>Today Deal's</li></a>
+                    <a href="#" class="border"><li>Customer Srvices</li></a>
+                    <a href="#" class="border"><li>Registry</li></a>
+                    <a href="#" class="border"><li>Gifts Card</li></a>
+                    <a href="#" class="border"><li>Sell</li></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+            </p>
+        </div>
+
+    </div>
+
+    <div class="box-section">
+        <div class="box">
+           <div class="box-content">
+                <h2>Toy's Under $30</h2>
+                <div class="image30" style="background-image: url('images/under30.jpg');"></div>
+                <p><a href="#" class="see-more">See more</a></p>
+           </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Beauty & Tips</h2>
+                <div class="image30" style="background-image: url('images/beauty.jpg');"></div>
+                <p><a href="#" class="see-more">See more</a></p>
+           </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>New Arrival in Toy's</h2>
+                <div class="image30" style="background-image: url('images/gaming.jpg');"></div>
+                <p><a href="#" class="see-more">See more</a></p>
+           </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Health & Care</h2>
+                <div class="image30" style="background-image: url('images/health.jpg');"></div>
+                <p><a href="#" class="see-more">See more</a></p>
+           </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Fitness & Care</h2>
+                <div class="image30" style="background-image: url('images/gym.jpg');"></div>
+                 <p><a href="#" class="see-more">See more</a></p>
+            </div>
+         </div>
+         <div class="box">
+             <div class="box-content">
+                <h2>New Arrival </h2>
+                <div class="image30" style="background-image: url('images/fashin.jpg');"></div>
+                 <p><a href="#" class="see-more">See more</a></p>
+            </div>
+         </div>
+         <div class="box">
+             <div class="box-content">
+                <h2>Laptop Arrival</h2>
+                <div class="image30" style="background-image: url('images/laptop.jpg');"></div>
+                 <p><a href="#" class="see-more">See more</a></p>
+            </div>
+         </div>
+         <div class="box">
+             <div class="box-content">
+                 <h2>Cute Pet's </h2>
+                 <div class="image30" style="background-image: url('images/pet.jpg');"></div>
+                 <p><a href="#" class="see-more">See more</a></p>
+            </div>
+         </div>
+    </div>
+
+    <!-- Slider start ----------------- -->
+
+    <div class="slider-arrow">
+        
+        <i class="ri-arrow-left-s-line" id="leftbtn" onclick="pushleft()"></i>
+            <!-- <div class="saler-title">
+                <h2>Top Book Saler For You</h2>
+            </div> -->
+        <div class="book-saler">
+            <div class="book-slider">
+                  <span><img src="images/book1.jpg"></span>
+                  <span><img src="images/book8.jpg"></span>
+                  <span><img src="images/a.jpg"></span>
+                  <span><img src="images/b.jpg"></span>
+                  <span><img src="images/f.jpg"></span>
+                  <span><img src="images/n.jpg"></span>
+                  <span><img src="images/c.jpg"></span>
+                  <span><img src="images/book8.jpg"></span>
+            </div>
+            <div class="book-slider">
+                <span><img src="images/a.jpg"></span>
+                <span><img src="images/b.jpg"></span>
+                <span><img src="images/book1.jpg"></span>
+                <span><img src="images/c.jpg"></span>
+                <span><img src="images/book8.jpg"></span>
+                <span><img src="images/f.jpg"></span>
+                <span><img src="images/n.jpg"></span>
+                <span><img src="images/a.jpg"></span>
+          </div>
+        </div>
+
+        <i class="ri-arrow-right-s-line" id="rightbtn" onclick="pushright()"></i>
+
+    </div>
+
+    <!-- sign in start --------- -->
+    <div class="signin-bg">
+        <div class="signIn">
+            <div class="signIn-content">
+                <p>See personalized recommendations</p>
+                <button>Sign in</button>
+                <p>New customer?<span class="see-more"> Start here.</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- back to top  -->
+
+     <div class="back">
+        <div class="back-to-top">
+            <p>Back to top</p>
+        </div>
+     </div>
+
+    <!-- footer start ------------------- -->
+    <footer>
+       <div class="earn-page">
+            <div class="get">
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+                <p>Investor Relations</p>
+                <p>Amazon Devices</p>
+                <p>Amazon Science</p>
+
+            </div>
+            <div class="get">
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+                <p>Investor Relations</p>
+                <p>Amazon Devices</p>
+                <p>Amazon Science</p>
+
+            </div>
+            <div class="get">
+                <h3>Get to Know Us</h3>
+                <p>Investor Relations</p>
+                <p>Amazon Devices</p>
+                <p>Amazon Science</p>
+            </div>
+            <div class="get">
+                <h3>Get to Know Us</h3>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>About Amazon</p>
+                <p>Investor Relations</p>
+                <p>Amazon Devices</p>
+                <p>Amazon Science</p>
+
+            </div>
+       </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
